@@ -81,5 +81,5 @@ test:
 production:
   <<: *default
   database: platziblog_production
-  username: buho
+  username: dev
   password: <%= ENV['PLATZIBLOG_DATABASE_PASSWORD'] %>
