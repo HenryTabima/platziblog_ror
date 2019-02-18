@@ -67,3 +67,8 @@ gem "devise", "~> 4.6"
 gem "ckeditor", "~> 4.3"
 
 gem "paperclip", "~> 6.1"
+
+group :production do
+  gem 'rails_12factor'
+  gem 'heroku-deflater'
+end
